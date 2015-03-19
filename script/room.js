@@ -599,7 +599,7 @@ var Room = {
 	},
 	
 	setTitle: function() {
-		var title = $SM.get('game.fire.value') < 2 ? _("A Dark Room") : _("A Firelit Room");
+		var title = $SM.get('game.fire.value') < 2 ? _("A Dark Room") : _("Dean's Lawson's Chamber of Fire");
 		if(Engine.activeModule == this) {
 			document.title = title;
 		}
